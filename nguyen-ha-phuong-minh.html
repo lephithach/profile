@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Hà Phương Minh</title>
+    <link rel="shortcut icon" href="./vendor/images/avatar/nguyen-ha-phuong-minh.jpg">
+    <meta name="keywords" content="Nguyễn Hà Phương Minh, Nguyen Ha Phuong Minh">
+    <meta name="description" content="Xin chào. Xin tự giới thiệu tôi là Lê Phi Thạch...">
+    <meta property="og:title" content="Nguyễn Hà Phương Minh" />
+    <meta property="og:description" content="Xin chào. Xin tự giới thiệu tôi là Lê Phi Thạch..." />
+    <meta property="og:image" content="./vendor/images/avatar/nguyen-ha-phuong-minh.jpg" />
+    <link rel="stylesheet" href="./vendor/css/main.css">
+</head>
+
+<body>
+    <div id="container">
+        <section id="header">
+            <img src="vendor/images/avatar/nguyen-ha-phuong-minh.jpg" alt="Nguyen-Ha-Phuong-Minh">
+            <div id="img-black"></div>
+
+            <div id="fullname">
+                <p class="name">NGUYỄN HÀ PHƯƠNG MINH</p>
+                <p class="chuc-vu">Lorem ipsum dolor sit amet</p>
+            </div>
+        </section>
+
+        <section id="wrapper-avatar">
+            <div id="avatar-box">
+                <img src="vendor/images/avatar/nguyen-ha-phuong-minh.jpg" alt="Nguyen-Ha-Phuong-Minh" id="avatar-picture">
+                <div id="social-short">
+                    <a href="#"><img src="./vendor/images/icon/facebook.png" class="icon-social" alt="facebook"></a>
+                    <a href="tel:0929626424"><img src="./vendor/images/icon/phone.png" class="icon-social" alt="phone"></a>
+                    <a href="#"><img src="./vendor/images/icon/zalo.png" class="icon-social" alt="zalo"></a>
+                </div>
+
+                <div id="social-more">
+                    <a href="#"><img src="./vendor/images/icon/instagram.png" class="icon-social" alt="instagram"></a>
+                    <a href="#"><img src="./vendor/images/icon/mail.png" class="icon-social" alt="mail"></a>
+                    <a href="#"><img src="./vendor/images/icon/tiktok.png" class="icon-social" alt="twitter"></a>
+                </div>
+
+                <i class="bi bi-three-dots" id="icon-more" title="Xem thêm"></i>
+            </div>
+        </section>
+
+        <section id="info-container">
+            <div id="info-main">
+                <h3 class="title-info">Giới thiệu về tôi</h3>
+                <p class="content-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto vel error quam, vero nemo similique provident veniam fugit at architecto, blanditiis sed ipsum saepe? Eum, obcaecati ullam? Architecto, harum rerum?</p>
+            </div>
+        </section>
+
+        <section id="footer">
+            <p>Thiết kế bởi <a href="https://facebook.com/lephithach" target="_blank">Lê Phi Thạch</a> | 2021</p>
+        </section>
+    </div>
+
+    <script src="./vendor/js/jquery.js"></script>
+
+    <script>
+        $('#icon-more').click(function(){
+            $('#avatar-box').toggleClass('avatar-box-more');
+            $('#social-more').toggleClass('show');
+        })
+
+    </script>
+</body>
+</html>
