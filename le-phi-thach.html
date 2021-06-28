@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lê Phi Thạch</title>
+    <link rel="shortcut icon" href="./vendor/images/avatar/Le-Phi-Thach.jpg">
+    <meta name="keywords" content="Lê Phi Thạch, Le Phi Thach">
+    <meta name="description" content="Xin chào. Xin tự giới thiệu tôi là Lê Phi Thạch...">
+    <meta property="og:title" content="Lê Phi Thạch" />
+    <meta property="og:description" content="Xin chào. Xin tự giới thiệu tôi là Lê Phi Thạch..." />
+    <meta property="og:image" content="./vendor/images/avatar/Le-Phi-Thach.jpg" />
+    <link rel="stylesheet" href="./vendor/css/main.css">
+</head>
+
+<body>
+    <div id="container">
+        <section id="header">
+            <img src="vendor/images/avatar/Le-Phi-Thach.jpg" alt="Le-Phi-Thach">
+            <div id="img-black"></div>
+
+            <div id="fullname">
+                <p class="name">LÊ PHI THẠCH</p>
+                <p class="chuc-vu">Lorem ipsum dolor sit amet</p>
+            </div>
+        </section>
+
+        <section id="wrapper-avatar">
+            <div id="avatar-box">
+                <img src="vendor/images/avatar/Le-Phi-Thach.jpg" alt="Le-Phi-Thach" id="avatar-picture">
+                <div id="social-short">
+                    <a href="fb://profile/100004334020798" target="_blank"><img src="./vendor/images/icon/facebook.png" class="icon-social" alt="facebook"></a>
+                    <a href="tel:0929626424" target="_blank"><img src="./vendor/images/icon/phone.png" class="icon-social" alt="phone"></a>
+                    <a href="https://zalo.me/lephithach" target="_blank"><img src="./vendor/images/icon/zalo.png" class="icon-social" alt="zalo"></a>
+                </div>
+
+                <div id="social-more">
+                    <a href="https://instagram.com/lephithach" target="_blank"><img src="./vendor/images/icon/instagram.png" class="icon-social" alt="instagram"></a>
+                    <a href="mailto:lephithach00@gmail.com" target="_blank"><img src="./vendor/images/icon/mail.png" class="icon-social" alt="mail"></a>
+                    <a href="https://www.tiktok.com/@lephithach" target="_blank"><img src="./vendor/images/icon/tiktok.png" class="icon-social" alt="twitter"></a>
+                </div>
+
+                <i class="bi bi-three-dots" id="icon-more" title="Xem thêm"></i>
+            </div>
+        </section>
+
+        <section id="info-container">
+            <div id="info-main">
+                <h3 class="title-info">Giới thiệu về tôi</h3>
+                <p class="content-info">Xin chào. Xin tự giới thiệu tôi là Lê Phi Thạch sinh năm 2000 hiện đang sinh sống và làm việc tại TP. Biên Hoà tỉnh Đồng Nai. Công việc của tôi hiện tại đang làm về lĩnh vực IT. Sở thích của tôi là xem phim, nghe nhạc, chỉnh sửa ảnh và thích học hỏi để phát triển bản thân.</p>
+            </div>
+        </section>
+
+        <section id="footer">
+            <p>Thiết kế bởi <a href="https://facebook.com/lephithach" target="_blank">Lê Phi Thạch</a> | 2021</p>
+        </section>
+    </div>
+
+    <script src="./vendor/js/jquery.js"></script>
+
+    <script>
+        $('#icon-more').click(function(){
+            $('#avatar-box').toggleClass('avatar-box-more');
+            $('#social-more').toggleClass('show');
+        })
+    </script>
+</body>
+</html>
